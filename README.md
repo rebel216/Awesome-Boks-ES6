@@ -3,13 +3,14 @@
 # Project Name
 
 > Description the project.
+Awesome books Libarary , user can add books (Awesome ones) for remembering the name of the books and authors.Created using Javascript (ES6).Earlier version created using Javascript and this one is the modified version of the same .
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- CSS HTML JAVASCRIPT 
+- Visual Code
+- Github , Linters.
 
 ## Live Demo (if available)
 
@@ -18,11 +19,10 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+clone the repo and run it using the visual code live server.
 
 
-To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
@@ -42,15 +42,11 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/rebel216)
+- Twitter: [@twitterhandle](https://twitter.com/rebel216)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/rebel216)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
