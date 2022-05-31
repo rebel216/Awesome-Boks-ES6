@@ -3,6 +3,9 @@ const title = document.querySelector('#title');
 const author = document.querySelector('#author');
 const addBtn = document.querySelector('#addBtn');
 const heading = document.getElementById('title');
+const listSec = document.querySelector('.list');
+const addNewSec = document.querySelector('.addNew');
+const contactSec = document.querySelector('.contact');
 let id = 1 || JSON.parse(localStorage.getItem('maxID'));
 
 class BookObject {
@@ -62,7 +65,7 @@ class BookObject {
 }
 
 // Add Button Event
-addBtn.addEventListener('click', () => {
+addBtn.addEventListener('click', (e) => {
     if (title.value === '' || author.value === '') {
         alert('Please fill in all fields');
     } else {
@@ -72,11 +75,13 @@ addBtn.addEventListener('click', () => {
         id += 1;
         localStorage.setItem('maxID', id);
         BookObject.clearInputs();
+        listSec.style.display = 'block';
+        addNewSec.style.display = 'none';
+        contactSec.style.display = 'none';
+        heading.innerHTML = 'All Awesome Books';
     }
-    listSec.style.display = 'block';
-    addNewSec.style.display = 'none';
-    contactSec.style.display = 'none';
-    heading.innerHTML = 'All Awesome Books';
+    
+    e.preventDefault();
 });
 
 window.onload = () => {
