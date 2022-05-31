@@ -67,8 +67,7 @@ class BookObject {
 // Add Button Event
 addBtn.addEventListener('click', (e) => {
     if (title.value === '' || author.value === '') {
-        alert('Please fill in all fields');
-    } else {
+        } else {
         BookObject.addBook(title.value, author.value, id);
         const book = new BookObject(title.value, author.value, id);
         BookObject.storeLS(book, id);
